@@ -1,0 +1,860 @@
+{% extends "app/extensions/pages/base.html" %}
+
+{% block content %}
+
+    <a name="home" id="anchor-home" class="anchor"></a>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+        <span class="logo">
+            <a href="#home"><img src="/static/UI/menu/logo.png"/></a>
+        </span>
+
+        <div class="container">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#did">Did You Know</a></li>
+                    <li><a href="#bubbles">Bubbles</a></li>
+                    <li><a href="#order">Order</a></li>
+                    <li><a href="#visit">Visit Us</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div id="banner">
+
+        <div class="splash">
+            <img src="/static/UI/banner/logo_colmant.png">
+            <br>
+            <br>
+            <button class="btn-discover" id="btn-enter">Enter</button>
+        </div>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+
+                <div style="background-image:url(/static/UI/banner/img2.jpg)" class="item active">
+
+                </div>
+
+                <div style="background-image:url(/static/UI/banner/img1.jpg)" class="item">
+
+                </div>
+
+                <div style="background-image:url(/static/UI/banner/img2.jpg)" class="item">
+
+                </div>
+
+                <div style="background-image:url(/static/UI/banner/img3.jpg)" class="item">
+
+                </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div>
+    </div>
+
+    <div id="stages">
+
+        <div class="stage s1 stage-about">
+
+            <a name="about" id="anchor-about" class="anchor"></a>
+
+            <div class="wrap">
+
+                <div class="container">
+
+                    <div class="col-sm-12">
+                        <h1>About Us</h1>
+                    </div>
+
+                </div>
+
+                <div class="container">
+
+                    <div class="col-sm-12">
+                        <p>Tucked away in the far end of the beautiful Franschhoek Valley, the Colmant winery is entirely dedicated to the South African bubbly-lover.</p>
+
+                        <p>Deciding to fulfill their passion, the Colmants set about starting their own production of fine Cap Classique wines in 2005 and in the meantime importing some exceptional Champagne.</p>
+
+                        <p>Both Cap Classique and Champagne can be tasted and purchased on the farm or delivered countrywide (free of charge from 12 bottles) not only to yourself but also to relatives, friends or business acquaintances.</p>
+                    </div>
+
+
+                    <div class="col-sm-12">
+                        <hr>
+
+                        <img class="scroll-fade float-left" src="/static/UI/stages/about/family.jpg">
+
+                        <h2>Our Family</h2>
+
+                        <p>Together with our 5 children, we made the "big move" in 2002 from French-speaking Belgium to Franschhoek.</p>
+
+                        <p>Having owned and run a stone manufacturing business for twelve years in Belgium we felt the time had come to change direction , to attempt something new, to create something that we could enjoy doing now and that would benefit our children in years to come.</p>
+
+                        <p>Whilst travelling in South Africa we happened upon the beautiful Franschhoek Valley. Here we purchased a 5ha smallholding which was part of the original La Motte farm granted to one of the French Huguenots back in 1694. </p>
+
+                        <p>What better place to establish a property dedicated to the production of fine bubbles? We set about planting new vineyards and constructing a cellar dedicated to the age old method of Champagne production.</p>
+
+                        <p>Bringing this project to fruition would not have been possible without the help of the hospitable and friendly South Africans. We now wish to share our passion with as many bubbly-loving South Africans as possible. </p>
+
+                    </div>
+
+
+                    <div class="col-sm-12">
+                        <hr>
+
+                        <img class="scroll-fade float-right" src="/static/UI/stages/about/charter.jpg">
+
+                        <h2>Our Charter</h2>
+
+                        <p>At Colmant, our keywords are <strong>quality</strong> and <strong>customer satisfaction</strong>. In order to achieve those goals, our strong beliefs are:</p>
+
+                        <ul>
+
+                            <li><strong>1. Full independence:</strong> this allows no space for compromises. Quality is our sole guideline. Never would we try to save money or time on the grape selection, the production process or the maturation time in the bottle.</li>
+
+                            <li><strong>2. Restricted size:</strong> we commit ourselves to maintaining a level of production fully manageable by ourselves. The whole winemaking process and customers contact will stay at any time under our full control.</li>
+
+                            <li><strong>3. Total focus:</strong> Cap Classique wines need a huge amount of attention. By concentrating our efforts on a single product, we believe that this is the best way to bring our valued customers the most satisfaction.</li>
+
+                            <li><strong>4. Expertise:</strong> We are ably assisted in our production by two outstanding proponents of the "bubbles" art , Pieter Ferreira who is well known for his Cap Classique and Nicolas Follet a French Oenologist with his own family cellar in Champagne.</li>
+
+                            <li><strong>5. Imported Champagne:</strong> Carefully selected by ourselves, its aim is to offer the South African bubbly-lover a wider scope of products at very a reasonable price and to create a market synergy with our own production. The very affordable selling prices do not reflect a low quality product - why would we harm our reputation? They are just made possible by selling directly to you with no middleman and by our will to gather around our name as many truly passionate customers as possible.</li>
+
+                            <li><strong>6. Customer warranty:</strong> Should at any time one of our customers be unhappy with one of our products, either our Cap Classique or our imported Champagne, and as long as the right conditions of cellaring have been followed, we will fully refund the cost of the bottle and take back any outstanding stock.</li>
+
+                        </ul>
+
+                    </div>
+
+
+                    <div class="col-sm-12">
+                        <hr>
+
+                        <img class="scroll-fade float-left" src="/static/UI/stages/about/cellar.jpg">
+
+                        <h2>Our Cellar</h2>
+
+                        <p>Our cellar was erected from scratch in 2005. According to our philosophy of hands-on quality, we designed a cellar that was both modern, small and efficient, which allows us to control the whole production cycle. The cellar has been built in a "Cape Vernacular" style which matches the existing homestead and has wrap-around views of the valley and nestles under the majestic Middagkrans peak.</p>
+
+                        <p>The tanks room is equipped with 14 stainless steel tanks with capacities from 1000 L to 14000 L, allowing greater flexibility in the handling of the different grape parcels. Our cold room allows us to cool over 8 tons of grapes freshly picked down to 0°C overnight before pressing, giving amazing results in the quality of the juice. The barrels room, built in a rustic brick wall style, is maintained permanently at a cool temperature of 13°C and a perfect level of humidity. </p>
+
+                        <p>...And probably the most important is the bottle maturation room, with a storage capacity of over 100.000 bottles and where your Cap Classique will quietly and gently mature in the bottle for 2 years or more, in the dark and at a steady temperature of 13 to 14°C.</p>
+
+                        <p>Our tasting room is casual but classy, with a cosy fire place for winter days and a lovely pergola covered stoep looking up at the Middagkrans Mountain.</p>
+
+                    </div>
+
+
+                    <div class="col-sm-12">
+                        <hr>
+
+                        <img class="scroll-fade float-right" src="/static/UI/stages/about/grapes.jpg">
+
+                        <h2>Our Grapes</h2>
+
+                        <p>We use exclusively Pinot Noir and Chardonnay in our production process, more or less in equal roportions. The distinctive character of each variety is explained on the <a href="#did" onClick="$('.navbar').find('a[href = \x22#did\x22]').click();return false;">"Did you know"</a> page.</p>
+
+                        <p>The most crucial part of making a refined bubbly being the blending, it is of the utmost importance for us to select the perfect blending components, each one bringing an extra dimension to the final product. For that reason, we select our grapes from different valleys, according to the specificity of each terroir, ensuring that we have enough components to work with to make a base wine with maximum complexity.</p>
+
+                        <p>Our <strong>Chardonnay</strong> is sourced mainly from the Franschhoek Valley renowned for it’s Chardonnays which offer a perfect balance between full structure and a level of acidity that brings freshness and vivacity... 70% of the Chardonnay is produced on our farm, 3 hectares of vineyards maintained by ourselves under the supervision of viticulturist Paul Wallace. The rest of the Chardonnay is sourced from the limy soils of Robertson.</p>
+
+                        <p>Our <strong>Pinot Noir</strong> is carefully selected from 5 different farms located in Robertson, Elgin, and Stellenbosch, all areas recognized to be the most suitable places to produce Pinot Noir combining body and finesse.</p>
+
+                    </div>
+
+
+                    <div class="col-sm-12">
+                        <hr>
+
+                        <h2>Our Partners</h2>
+
+                    </div>
+
+                    <div class="col-sm-4">
+
+                        <h3><a href="http://www.champagne-mailly.com" target="_blank">Mailly Grand Cru</a></h3>
+
+                        <img class="fill" src="/static/UI/stages/about/maillycellar.jpg">
+
+                        <p>Champagne Mailly Grand Cru is located in the village of Mailly-Champagne on the Northern slope of the “Grande Montagne de Reims” and is independently owned by 77 vine-growers of the village.</p>
+
+                        <p>Their 70ha vineyard, exclusively planted of Pinot Noir (75%) and Chardonnay (25%), is classified 100% Grand Cru, the top of the range.</p>
+
+                        <p>In the 324 “crus” (or vine-villages) representing the whole Champagne area, only the grapes grown in 17 of them are judged worthy to wear the Grand Cru appellation. Rare and expensive, those very special grapes are usually used as part of the blend of the Prestige Cuvees of the Grandes Marques.</p>
+
+                        <p>As an exceptional and almost unique case in the whole of Champagne, Mailly Grand Cru makes every single of its 500.000 yearly bottles exclusively out of Grand Cru grapes coming from its own vineyards.</p>
+
+                        <p>To learn more about Champagne Mailly Grand Cru, visit <a href="http://www.champagne-mailly.com" target="_blank">www.champagne-mailly.com</a></p>
+
+                    </div>
+
+                    <div class="col-sm-4">
+
+                        <h3><a href="www.champagne-tribaut.com" target="_blank">Tribaut</a></h3>
+
+                        <img class="fill" src="/static/UI/stages/about/tribaut.jpg">
+
+                        <p>For four generations, the family Tribaut have proudly run their vineyards and winery situated in the lovely village of Romery, between the Vallee de la Marne and the Montagne de Reims. Romery is lying next to Hautvillers, the birth place of Champagne.</p>
+
+                        <p>Their 50 hectares of vineyards are planted with 30% Chardonnay, 40% Pinot Noir and 30% Pinot Meunier and provide Jean-Marie Tribaut and his team sufficient harvest to elaborate the whole of his Champagne range without buying in grapes.</p>
+
+                        <p>25 hectares of their vineyards are situated in Romery and the surrounding villages combining the qualities of the Montagne de Reims and the Vallee de la Marne. This is supplemented by another 25 hectares extending over to the Cote des Blancs. Tribaut nowadays produces 500.000 bottles a year, every single one of them maturing a minimum of 36 months in their underground chalk cellars where, without any temperature regulation, the temperature will remain steady all year long at 12°C.</p>
+
+                        <p>All of their Champagne have won numerous awards and are renowned in many European countries. For this reason, we are proud to make Tribaut available for all South African connoisseurs.</p>
+
+                        <p>To learn more about Tribaut visit <a href="www.champagne-tribaut.com" target="_blank">www.champagne-tribaut.com</a></p>
+
+                    </div>
+
+                    <div class="col-sm-4">
+
+                        <h3><a href="http://www.champagne-follet-ramillon.com/" target="_blank">Follet-Ramillon</a></h3>
+
+                        <img class="fill" src="/static/UI/stages/about/follet-ramillon.jpg">
+
+                        <p>Follet-Ramillon is a small family-owned winery located in Belval-sous-Chatillon, a typical village of Champagne in the Vallee de la Marne, between Reims and Epernay.</p>
+
+                        <p>Joel and Nicole Follet own 6 hectares of vineyards (mainly Pinot Meunier) that they manage entirely by themselves all year through. Their new cellar, completed in 1999, is modern and efficient. Their current production amounts to 40.000 bottles a year and allows them to have full control of the whole process.</p>
+
+                        <p>We have been very impressed by the care they take at every step of the making of their Champagne and by the outstanding quality of their wines.</p>
+
+                        <p>If you are lucky enough to travel in Champagne, don’t miss paying them a visit. You will be sure to get a warm welcome and if you want to experience true hospitality, you might even choose to stay overnight in their delightful guest cottage adjacent to the winery…</p>
+
+                        <p>To learn more about Follet-Ramillon, visit <a href="http://www.champagne-follet-ramillon.com/" target="_blank">www.champagne-follet-ramillon.com</a></p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="stage s2 stage-did">
+
+            <a name="did" id="anchor-did" class="anchor"></a>
+
+            <div class="wrap">
+
+                <div class="container">
+
+                    <div class="col-sm-12">
+                        <h1>Did You Know</h1>
+                    </div>
+
+                </div>
+
+                <div class="container">
+
+                    <div class="col-sm-12">
+
+                        <p>In this section, we would like to familiarize you with the basic concepts about sparkling wine.</p>
+
+                    </div>
+
+
+                    <div class="col-sm-12">
+                        <hr>
+
+                        <img class="scroll-fade float-right" src="/static/UI/stages/did/methode_traditionelle.jpg">
+
+                        <h2>Methode Traditionelle</h2>
+
+                        <p>"Methode traditionnelle" is the generic term used for any sparkling wine that is made accordingly to the original "recipe" of Champagne.</p>
+
+                        <p>Basically, this means that the wine must undergo a second fermentation in the bottle itself. This will give the wine its specific character in comparison with a common sparkling wine in which the bubbles have just been added to a normal still wine.</p>
+
+                        <p>The main steps of the making of Methode traditionnelle are :</p>
+
+                        <ul>
+
+                            <li><strong>1. First fermentation - the base wine:</strong> Grapes are first pressed in whole bunches and only the best part of the juice, called the "Cuvee", will be used. During the fermentation process, the yeast will transform the sugar of the grape juice into alcohol and carbon dioxide (CO2). As this first fermentation is made in barrels or stainless steel tanks, the CO2 being a gas will escape the vessel and a still wine is obtained with a level of alcohol around 11%.</li>
+
+                            <li><strong>2. Blending:</strong> This is a critical part of the production process where the taste of the final product will be determined. After a few month of maturation, the different base wines available from different grapes, growing areas or vintages, will be carefully tasted and blended in the right proportions in order to obtain the best final product respectful of the style of the winery. The best producers will usually keep part of their best base wine as "reserve wine" in order to enhance the future years' blends.</li>
+
+                            <li><strong>3. Second fermentation:</strong> The blended base wine is then bottled just after the addition of yeast and sugar. The bottle is closed by the mean of a crown cap. In the following weeks, the second fermentation will take place : the added sugar is transformed in alcohol (about 1,3%) and CO2. This time, the CO2 is trapped inside the bottle : there are your bubbles! A long maturation process then takes place, from 12 months up to 10 years or more, according to the winemaker's choice and the quality and ageing potential of the wine. The bottles are kept in the dark and in the cold (ideally 13 to 14C) and through this extended yeast contact, the wine will acquire its complexity and character.</li>
+
+                            <li><strong>4. Degorgement and dosage:</strong> At the end of the maturation, the yeast sediment is then moved into the neck of the bottle through the long process of "remuage". The "Degorgement" is the action of removing the crown cap closing the bottle and, thanks to the gas pressure inside the bottle, ejecting all the yeast sediment. Before corking and wiring the bottle, a certain amount of sugar, called the "dosage" is added to the bottle. It helps to balance the acidity of the wine and suit the consumers tastes. Too much sugar usually means hiding the wine's own characteristics (or faults). Connoisseurs usually prefer lower dosage for great bubblies.</li>
+
+                        </ul>
+
+                    </div>
+
+
+                    <div class="col-sm-12">
+                        <hr>
+
+                        <img class="scroll-fade float-left" src="/static/UI/stages/did/champagne.jpg">
+
+                        <h2>Champagne</h2>
+
+                        <p>Champagne is the name of a region in the North of France. With a winemaking history of over 300 years and an annual production of 300.000.000 bottles, it is the world's largest producer and exporter of Methode Traditionnelle, also called there "Methode Champenoise".</p>
+
+                        <p>The surface area falling under the appellation "Champagne" stretches over 34.000 hectares and is divided amongst almost 15.000 vine growers. The cost of the land averages over EUR 1.000.000 per hectare!</p>
+
+                        <p>The growers either produce their wines themselves, either sell their grapes to cooperatives or to the other Champagne houses. In Champagne, there are nearly 4000 producers of Methode Champenoise.</p>
+
+                        <p>This is to say that under the name “Champagne”, there is not a single product but many different styles and the quality is far from being homogeneous. Cheaply made Champagne can sometimes proved to be very disappointing, the retail price scarcely being the right judging criterion.</p>
+
+                        <p>The CIVC (Comite Interprofessionnel des Vins de Champagne) is a very powerful association that controls all the aspects of the Champagne : grape growing, quality control and promotion and protection of the Champagne appellation.</p>
+
+                        <p>Only 3 grapes varieties are permitted (Pinot Noir, Pinot Meunier and Chardonnay); yields in both the vineyard and during pressing are limited, the pruning of vines, their height, spacing and density, harvest by hand and minimum ageing periods, are all controlled by the CIVC.</p>
+
+                        <p>Champagne wines owe their inimitable character to a unique combination of climate (quite cold) and soil composition (chalky sub soils), otherwise referred to as "terroir".</p>
+
+                        <p>Champagne is the best known wine internationally. Whatever the occasion, worldwide people have adopted the habit of celebrating with Champagne.</p>
+
+                        <p>The "Grandes Marques" (Great Brands) are usually recognised for their product consistency and their mighty branding. Their flagship wines often have no equivalents, but their standard bottles are not always worth their (over)price, besides the satisfaction of a prestigious label. The smaller producers, although maintaining a constant style, cannot guarantee the same consistency through the years but do most of the time offer much better quality and value for money.</p>
+
+                        <p>To learn more visit : <a href="www.champagne.fr" target="_blank">www.champagne.fr</a></p>
+
+                    </div>
+
+
+                    <div class="col-sm-12">
+                        <hr>
+
+                        <img class="scroll-fade float-right" src="/static/UI/stages/did/cap_classique.jpg">
+
+                        <h2>Cap Classique</h2>
+
+                        <p>Cap Classique is the name for any wine made in South Africa accordingly to the Methode Traditionnelle. The words "Champagne" and "Champenoise" may exclusively be used for wines made in Champagne.</p>
+
+                        <p>The first Cap Classique wine was produced in 1971 by Frans Malan at Simonsig under the name "Kaapse Vonkel". Today, the global production is growing steadily and amounts to about 5.000.000 bottles a year (less than 2% of the Champagne Region).</p>
+
+                        <p>Unlike in France, neither the area of grapes growing nor the grapes varieties are restricted, which gives each producer much more creativity. However, most of them are members of the "Cap Classique Association" whose mission is to ensure consistency, improvement and image development of the product.</p>
+
+                        <p>Although a young product in a young country, the quality of the Cap Classique is permanently improving, for the best enjoyment of the South African bubbly-lover.</p>
+
+                        <p>One must not try to compare Cap Classique to Champagne. They each have their own individuality and qualities. Whereas the best French Champagne is always going to be more complex, the best Cap Classique possesses clean, fresh flavours. There can be great Cap Classique just as there are great Champagnes. A blind tasting with a few friends of mixed bottles always provides great learning and enjoyment.</p>
+
+                        <p>To learn more : <a href="www.capclassique.co.za" target="_blank">www.capclassique.co.za</a></p>
+
+                    </div>
+
+
+                    <div class="col-sm-12">
+                        <hr>
+
+                        <img class="scroll-fade float-left" src="/static/UI/stages/did/grapes.jpeg">
+
+                        <h2>Grapes</h2>
+
+                        <p>In South Africa, Chardonnay and Pinot Noir are the most widely used varieties for Cap Classique. Pinot Meunier is very rarely used as it has so far not proved to be at its best under our warmer climate but works nicely in France where the two other ones suffer more from the frost. Some producers also use other varieties in their Cap Classique blend, such as Chenin, Pinotage...</p>
+
+                        <p>Only three varieties of grapes are permitted in Champagne. Two red varieties, Pinot Meunier and Pinot Noir, and one white variety, Chardonnay. Those varieties are the ones that will preserve the best the finesse and the elegance of the wine.</p>
+
+                        <p>Each variety has its own personality:</p>
+
+                    </div>
+
+                    <div class="col-sm-12">
+
+                        <h3>Pinot Noir</h3>
+                        <p>Imparts structure and power to the blend and adds depth, complexity, backbone, strength and fullness. It often produces a light, earthy, red fruits aroma.</p>
+
+                        <h3>Pinot Meunier</h3>
+                        <p>Is supple and fruity, producing an intense bouquet. It develops quicker than the two other varieties and gives roundness to the wine. It usually does not offer the finesse of Pinot Noir and Chardonnay.</p>
+
+                        <h3>Chardonnay</h3>
+                        <p>Brings finesse, life, freshness, elegance. Chardonnay is detected at first in Methode Traditionnelle with its intensity and perfume., with floral and sometimes mineral aromas. Its slow development gives an ideal ageing potential.</p>
+
+                    </div>
+
+
+                    <div class="col-sm-12">
+                        <hr>
+
+                        <img class="scroll-fade float-right" src="/static/UI/stages/did/cellaring.jpg">
+
+                        <h2>Cellaring</h2>
+
+                        <p>Your sparkling wine has usually remained in the production cellar for as long as necessary to complete its evolution and is <strong>ready to be enjoyed</strong>. Nevertheless, always make sure with the producer that your wine has already spent at least <strong>3 months on its cork</strong> after degorgement, to ensure integration of the dosage and balance.</p>
+
+                        <p>It is pointless to keep your Champagne or Cap Classique for too long at home but, in good cellaring conditions and if the bottle has a good quality cork, you can easily keep them up to <strong>2 to 3 years</strong> before the quality will start diminishing. Great Champagne can be kept much longer but the years will change its character, losing part of its exuberance and a great deal of its freshness but on the other hand, gaining in suppleness and more complex aromas of ripe or dried fruits. It is then up to each connoisseur to decide which style of Champagne he prefers. </p>
+
+                        <p>Following are the main rules of good cellaring practices for your Champagne or Cap Classique.</p>
+
+                        <p>Most important of all, your wine will deteriorate if exposed too long to the light. Its quick and harmful effects are well known. To avoid the "taste of the light", it is, therefore, essential to leave the Champagne in <strong>darkness</strong> or in its original case.</p>
+
+                        <p>Ideally keep your bottles at cool and <strong>constant</strong> temperature, between 14 and 18°C. If not possible, make sure that the storage room does not have temperature variations of more than 5 to 6°C throughout the year.</p>
+
+                        <p>Humidity is not a problem as long as it is not excessive (a hygrometry of 60 to 70 is ideal). This would damage the labels and, at worst, the corks could become mouldy and this taste might be transferred to the wine.</p>
+
+                        <p>In addition, the cellar must be protected against everything else harmful to the quality : strong odours, air currents and vibrations.</p>
+
+                        <p>Storing bottles "upright" or "laid down" proves to be far less important than for non-sparkling wines. In fact, the pressure within the bottle allows the cork to always remain perfectly humid and, consequently, supple and efficient, whether the bottle is upright or lying down.</p>
+
+                        <p>Finally, keeping your sparkling wine for months in the refrigerator might be harmful to the delicate flavours and is not advised.</p>
+
+                    </div>
+
+
+                    <div class="col-sm-12">
+                        <hr>
+
+                        <img class="scroll-fade float-left" src="/static/UI/stages/did/serving.jpg">
+
+                        <h2>Serving</h2>
+
+                        <p>Before opening a bottle of sparkling wine, it must be chilled but not "iced". It is generally considered that Champagne or Cap Classique should be enjoyed between 6 and 9°C. However, as it is reheated in the glass and if the ambient temperature is high as often in South Africa, one should consider chilling the bottle down to 4°C. Over-chilling will mean that the wine is too cold to release its aromas and flavours.</p>
+
+                        <p>The best method of chilling a bottle of sparkling wine is, without doubt, that of an ice bucket filled with water and ice in which you leave the bottle for 20 minutes before serving. The ice bucket has the advantage of gradually chilling the bottle and then keeping it at the same temperature of 4°C, provided that you replace the ice-cubes when they have melted. Alternatively, if you don't have an ice bucket, the fridge can be conveniently used; however, it has the disadvantage of being slower than an ice bucket (3 to 4 hours are needed) and as soon as it is on the table, it will start to reheat. The deep-freeze as a quick chilling medium is not advisable as it might be harmful to the flavours of the wine.</p>
+
+                        <p>The true wine-lovers open their bottles in silence instead of popping the cork. The advantage of this way of opening is an increased preservation of the bubbles and a reduced risk of losing wine.</p>
+
+                        <p>The ideal glass is the "flute" glass. Never wash your bubbly glasses in the dishwasher and avoid the use of any detergent. This would result in poor sparkle and a ring of bubbles (created when you pour the Champagne into the glass) lasting indefinitely instead of gradually being reabsorbed.</p>
+
+                        <p>Poor in two stages. First poor a little bit and then, when the foam is absorbed, fill the glass to a maximum level of 2/3 of the capacity of the glass.</p>
+
+                        <p>Sometimes, the bottle is not emptied and it must be kept for finishing on another occasion. The use of a proper bubbly-bottle stopper will keep your wine enjoyable for another two days.</p>
+
+                    </div>
+
+
+                    <div class="col-sm-12">
+                        <hr>
+
+                        <img class="scroll-fade fill" src="/static/UI/stages/did/tasting.jpg">
+
+                        <h2>Tasting</h2>
+
+                        <p>The first contact with your sparkling will be the eye contact. Examine the bubbles, their size, their speed, their quantity, the mousse on the surface. Look at the brilliance and the colour nuances of the wine. The foam should be fine and creamy, the wine must be elegant and its purity should invite you to drink it.</p>
+
+                        <p>Then open the aromas by gently rotating the wine in the glass. Take your time to smell them and try to appreciate their nuances, intensity and complexity. Are they more fruity (citrus, red fruits, dry fruits,...) or floral, or buttery, or...?</p>
+
+                        <p>Now it's time to take a small sip into your mouth. Keep it for a few moments on your palate before drinking. You should first have an impression of fruitiness, freshness and roundness. Then on the mid-palate, you should be able to assess the complexity of the secondary flavours and the richness of the structure and the elegance of its texture. Finally, drink the wine and appreciate its length. At the end of the process, should the wine be good (or excellent) you must remain with an impression of nice balance and harmony between all the components.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="stage s1 stage-bubbles">
+
+            <a name="bubbles" id="anchor-bubbles" class="anchor"></a>
+
+            <div class="wrap">
+
+                <div class="container">
+
+                    <div class="col-sm-12">
+                        <h1>Bubbles!</h1>
+                    </div>
+
+                </div>
+
+                <div class="container">
+
+                    <div class="col-sm-6">
+
+                        <h2>Stuff</h2>
+
+                    </div>
+
+                    <div class="col-sm-6">
+
+                        <h2>Stuff</h2>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="stage s2 stage-order">
+
+            <a name="order" id="anchor-order" class="anchor"></a>
+
+            <div class="wrap">
+
+                <div class="container">
+
+                    <div class="col-sm-12">
+                        <h1>Orders</h1>
+                    </div>
+
+                </div>
+
+                <div class="container">
+
+                    <div class="col-sm-12" style="overflow: scroll;">
+
+                        <table id="order_table" cellpadding="3">
+
+                        	<tbody><tr>
+                				<td style="width: 275px;"></td>
+                				<td align="center"><strong>Content (ml)</strong></td>
+                				<td align="center"><strong>Unit Price "A"</strong></td>
+                				<td align="center"><strong>Unit Price "B"</strong></td>
+                				<td align="center"><strong>Unit Price "C"</strong></td>
+                				<td align="center"><strong>Bottles Ordered</strong></td>
+                				<td style="width: 90px;" align="center"><strong>Availability</strong></td>
+                			</tr>
+
+                			<tr>
+                				<td><strong><em>CAP CLASSIQUE COLMANT</em></strong></td>
+                			</tr>
+
+                			<tr>
+                				<td align="left">Cap Classique Brut Plaisir by Colmant NV</td>
+                				<td align="center">750</td>
+                				<td align="center">R106</td>
+                				<td align="center">R102</td>
+                				<td align="center">R99</td>
+                				<td align="center"><input size="3" value="0" name="Colmant_Brut_Plaisir"></td>
+                				<td align="center">Stock available</td>
+                			</tr>
+
+                			<tr>
+                				<td align="left">Cap Classique Colmant Brut Reserve NV</td>
+                				<td align="center">750</td>
+                				<td align="center">R150</td>
+                				<td align="center">R136</td>
+                				<td align="center">R126</td>
+                				<td align="center"><input size="3" value="0" name="Colmant_Brut_Tradition"></td>
+                				<td align="center">Stock available</td>
+                			</tr>
+                			<tr>
+                				<td align="left">Cap Classique Colmant Brut Rose NV</td>
+                				<td align="center">750</td>
+                				<td align="center">R160</td>
+                				<td align="center">R146</td>
+                				<td align="center">R135</td>
+                				<td align="center"><input size="3" value="0" name="Colmant_Brut_Rose"></td>
+                				<td align="center">Stock available</td>
+                			</tr>
+                			<tr>
+                				<td align="left">Cap Classique Colmant Brut Chardonnay NV</td>
+                				<td align="center">750</td>
+                				<td align="center">R220</td>
+                				<td align="center">R204</td>
+                				<td align="center">R191</td>
+                				<td align="center"><input size="3" value="0" name="Colmant_Brut_Chardonnay"></td>
+                				<td align="center">Stock Available</td>
+                			</tr>
+
+                			<tr>
+                				<td align="left">Cap Classique Colmant Sec Reserve NV</td>
+                				<td align="center">750</td>
+                				<td align="center">R155</td>
+                				<td align="center">R141</td>
+                				<td align="center">R131</td>
+                				<td align="center"><input size="3" value="0" name="Colmant_Sec_Reserve"></td>
+                				<td align="center">Stock Available</td>
+                			</tr>
+
+                			<tr>
+                				<td><strong><em>CHAMPAGNE</em></strong></td>
+                			</tr>
+
+                			<tr>
+                				<td align="left">Champagne Follet Special Brut NV</td>
+                				<td align="center">750</td>
+                				<td align="center">R289</td>
+                				<td align="center">R272</td>
+                				<td align="center">R263</td>
+                				<td align="center"><input size="3" value="0" name="Follet_Brut_Tradition"></td>
+                				<td align="center">Stock Available</td>
+                			</tr>
+
+                			<tr>
+                				<td align="left">Champagne Tribaut Brut Origine NV</td>
+                				<td align="center">750</td>
+                				<td align="center">R279</td>
+                				<td align="center">R262</td>
+                				<td align="center">R253</td>
+                				<td align="center"><input size="3" value="0" name="Tribaut_Brut_Tradition"></td>
+                				<td align="center">Stock Available</td>
+                			</tr>
+
+                			<tr>
+                				<td align="left">Champagne Tribaut Blanc de Chardonnay NV</td>
+                				<td align="center">750</td>
+                				<td align="center">R299</td>
+                				<td align="center">R282</td>
+                				<td align="center">R273</td>
+                				<td align="center"><input size="3" value="0" name="Tribaut_Chardonnay"></td>
+                				<td align="center">Stock available</td>
+                			</tr>
+
+                			<tr>
+                				<td align="left">Champagne Tribaut Instant Gourmand NV</td>
+                				<td align="center">750</td>
+                				<td align="center">R289</td>
+                				<td align="center">R272</td>
+                				<td align="center">R263</td>
+                				<td align="center"><input size="3" value="0" name="Tribaut_DemiSec"></td>
+                				<td align="center">Stock available</td>
+                			</tr>
+
+                			<tr>
+                				<td align="left">Champagne Tribaut Rose NV</td>
+                				<td align="center">750</td>
+                				<td align="center">R299</td>
+                				<td align="center">R282</td>
+                				<td align="center">R273</td>
+                				<td align="center"><input size="3" value="0" name="Tribaut_Rose"></td>
+                				<td align="center">Stock Available</td>
+                			</tr>
+
+                			<tr>
+                				<td align="left">Champagne Tribaut Millesime 2007</td>
+                				<td align="center">750</td>
+                				<td align="center">R399</td>
+                				<td align="center">R380</td>
+                				<td align="center">R369</td>
+                				<td align="center"><input size="3" value="0" name="Tribaut_Millesime"></td>
+                				<td align="center">Stock available</td>
+                			</tr>
+
+                			<tr>
+                				<td align="left">Champagne Follet Vintage Brut 2008</td>
+                				<td align="center">750</td>
+                				<td align="center">R369</td>
+                				<td align="center">R350</td>
+                				<td align="center">R340</td>
+                				<td align="center"><input size="3" value="0" name="Follet_Millesime"></td>
+                				<td align="center">Stock available</td>
+                			</tr>
+
+                			<tr class="sold_out">
+                				<td align="left">Champagne Tribaut Cuvee Rene NV</td>
+                				<td align="center">750</td>
+                				<td align="center">R439</td>
+                				<td align="center">R419</td>
+                				<td align="center">R407</td>
+                				<td align="center"><input class="sold_out_box" readonly="yes" size="3" value="0" name="Tribaut_Cuvee"></td>
+                				<td align="center">Sold out until October</td>
+                			</tr>
+
+                			<tr>
+                				<td align="left">Champagne Mailly Grand Cru Brut Reserve NV</td>
+                				<td align="center">750</td>
+                				<td align="center">R409</td>
+                				<td align="center">R389</td>
+                				<td align="center">R378</td>
+                				<td align="center"><input size="3" value="0" name="Mailly_BrutReserve"></td>
+                				<td align="center">Stock available</td>
+                			</tr>
+                			<!--
+                			<tr class="sold_out">
+                				<td align="left">Champagne Mailly Grand Cru Brut Reserve</td>
+                				<td align="center">750</td>
+                				<td align="center">R320</td>
+                				<td align="center">R312</td>
+                				<td align="center">R304</td>
+                				<td align="center"><input class="sold_out_box" readonly=yes size=3 value="0" name="Mailly_BrutReserve"></input></td>
+                				<td align="center">SOLD OUT until April 2011</td>
+                			</tr>
+                			-->
+                			<tr>
+                				<td align="left">Champagne Mailly Grand Cru Extra Brut NV</td>
+                				<td align="center">750</td>
+                				<td align="center">R459</td>
+                				<td align="center">R438</td>
+                				<td align="center">R426</td>
+                				<td align="center"><input size="3" value="0" name="Mailly_ExtraBrut"></td>
+                				<td align="center">Stock available</td>
+                			</tr>
+
+                			<tr>
+                				<td align="left">Champagne Mailly Grand Cru L'Intemporelle 08</td>
+                				<td align="center">750</td>
+                				<td align="center">R750</td>
+                				<td align="center">R724</td>
+                				<td align="center">R706</td>
+                				<td align="center"><input size="3" value="0" name="Mailly_Intemporelle"></td>
+                				<td align="center">Stock available</td>
+                			</tr>
+
+                			<tr>
+                				<td align="left">Champagne Mailly Grand Cru Les Echansons 04</td>
+                				<td align="center">750</td>
+                				<td align="center">R975</td>
+                				<td align="center">R944</td>
+                				<td align="center">R922</td>
+                				<td align="center"><input size="3" value="0" name="Mailly_Echansons"></td>
+                				<td align="center">Stock available</td>
+                			</tr>
+
+                			<tr>
+                				<td><strong><em>NON STANDARD BOTTLES &amp; ACCESSORIES</em></strong></td>
+                			</tr>
+
+                			<tr>
+                				<td align="left">Champagne Tribaut Brut Origine half bottle NV</td>
+                				<td align="center">375</td>
+                				<td align="center">R175</td>
+                				<td align="center">R166</td>
+                				<td align="center">R161</td>
+                				<td align="center"><input size="3" value="0" name="Tribaut_Half"></td>
+                				<td align="center">(12bt/cs) Available</td>
+                			</tr>
+
+                			<tr>
+                				<td align="left">Champagne Tribaut Brut Origine magnum NV</td>
+                				<td align="center">1500</td>
+                				<td align="center">R600</td>
+                				<td align="center">R570</td>
+                				<td align="center">R554</td>
+                				<td align="center"><input size="3" value="0" name="Tribaut_Magnum"></td>
+                				<td align="center">(3bt/cs) Available</td>
+                			</tr>
+
+                			<tr>
+                				<td align="left">Champagne Follet Brut Tradition magnum NV</td>
+                				<td align="center">1500</td>
+                				<td align="center">R660</td>
+                				<td align="center">R629</td>
+                				<td align="center">R611</td>
+                				<td align="center"><input size="3" value="0" name="Follet_Magnum"></td>
+                				<td align="center">(3bt/cs) Available</td>
+                			</tr>
+
+                			<tr>
+                				<td align="left">Champagne Tribaut Brut Origine Jeroboam NV</td>
+                				<td align="center">3000</td>
+                				<td align="center">R1550</td>
+                				<td align="center">R1485</td>
+                				<td align="center">R1446</td>
+                				<td align="center"><input size="3" value="0" name="Tribaut_Jeroboam"></td>
+                				<td align="center">(1bt/cs) Available</td>
+                			</tr>
+
+                			<tr>
+                				<td align="left">"Top Hat" bottle stopper</td>
+                				<td align="center"></td>
+                				<td align="center">R40</td>
+                				<td align="center">R40</td>
+                				<td align="center">R40</td>
+                				<td align="center"><input size="3" value="0" name="Top_hat"></td>
+                				<td align="center">Stock Available</td>
+                			</tr>
+
+                		</tbody>
+
+                    </table>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="stage s1 stage-visit">
+
+            <a name="visit" id="anchor-visit" class="anchor"></a>
+
+            <div class="wrap">
+
+                <div class="container">
+
+                    <div class="col-sm-12">
+                        <h1>Visit Us</h1>
+                    </div>
+
+                </div>
+
+                <div class="container">
+
+                    <div class="col-sm-12">
+                        <hr>
+                    </div>
+
+                </div>
+
+                <div class="map scroll-fade" onClick="window.open('https://www.google.co.za/maps/place/Colmant+Winery/@-33.91534,19.119177,14.53z/data=!4m2!3m1!1s0x0000000000000000:0xa18ca54b74d8673f', '_blank').focus();">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26480.073097988672!2d19.115799296626403!3d-33.91399180340045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xa18ca54b74d8673f!2sColmant+Winery!5e0!3m2!1sen!2sza!4v1446665523421" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+
+                <div class="container">
+
+                    <div class="col-sm-12">
+                        <hr>
+
+                        <img class="scroll-fade float-right" src="/static/UI/stages/did/serving.jpg">
+
+                        <h2>Cellar Tours & Tastings</h2>
+
+                        <p>We are normally open for sales and tastings <strong>Monday to Friday from 11:00 until 13:00</strong>, or outside those hours by appointment (by phone <a href="tel:0218764348">021 876 4348</a> / <a href="tel:0723684942">072 368 4942</a> or by email to <a href="mailto:info@colmant.co.za">info@colmant.co.za</a>).</p>
+
+                        <p>On <strong>public holidays and during the festive season</strong>, we recommend that you <strong>check availability</strong> with us prior to your visit in order to avoid any disappointment.</p>
+
+                        <h3>Groups of 8 people or more strictly by appointment.</h3>
+
+                        <p><strong>Cap Classique tastings</strong> are charged at <strong>R15 per half glass</strong> (60ml servings). For each bottle purchased, one tasting is discounted. </p>
+
+                        <p><strong>Imported Champagne tastings</strong> are charged at <strong>R35 per half glass</strong> (60ml servings) and are not refundable.</p>
+
+                        <p>Sales are available from stock on the farm where we offer <strong>credit card facilities</strong> (Visa and Mastercard only).</p>
+
+                        <p>Should you like to organize a very entertaining and educative party with friends, family, colleagues or clients, please click on the following link : <a href="#">The Colmant Bubbly Experience</a></p>
+
+                        <h2><a href="mailto:info@colmant.co.za">Enquire Now!</a></h2>
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+{% endblock %}

@@ -1,0 +1,95 @@
+
+
+@import "/UI/UI.variables.less";
+@import "/UI/UI.mixins.less";
+
+
+/*-------------------------------------------------------------------------- */
+/*
+        UI.banner
+*/
+/*-------------------------------------------------------------------------- */
+
+/*-------------------------------------------------------------------------- */
+/*
+        variables
+*/
+/*-------------------------------------------------------------------------- */
+
+
+/*-------------------------------------------------------------------------- */
+/*
+        rules
+*/
+/*-------------------------------------------------------------------------- */
+
+div#banner {
+
+    width:100%;
+    min-height:450px;
+    height:100vh;
+    color:#fff;
+
+    img{
+        display:inline-block;
+        max-width:90%;
+    }
+
+    .splash {
+
+        position:absolute;
+        padding:20px;
+        top:20%;
+        z-index:1;
+        width:100%;
+        text-align:center;
+
+        h1{
+            text-shadow: 1px 0 0 #fff,-1px 0 0 #fff,0 1px #fff,0 -1px 0 #fff,0 1px 1px rgba(0,0,0,0.5);
+            font-size:70px;
+        }
+
+    }
+
+    button {
+        margin:20px 0 0;
+        background-color:rgba(20,20,20,0.6);
+        border:medium none;
+        padding:10px 50px;
+        border-radius:3px;
+        font-size:14px;
+        font-weight:bold;
+        color:#ECE4BF;
+    }
+
+    div#myCarousel {
+
+        height:100%;
+
+        .carousel-inner {
+            height:100%;
+        }
+
+        .item {
+            background-size:cover;
+            height:100%;
+            opacity: 0.6;
+        }
+
+        .carousel-indicators li {
+
+            border: 1px solid #000;
+
+            &.active{
+                background-color: #ECE4BF;
+            }
+
+        }
+
+        .carousel-control {
+            z-index:2;
+            color:#000;
+        }
+    }
+
+}

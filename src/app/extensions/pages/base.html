@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8" />
+
+        <title>Colmant</title>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="shortcut icon" href="/static/favicon.ico" />
+
+        {% for size in [57, 72, 76, 114, 120, 144, 152, 180] %}
+
+            <link rel="apple-touch-icon" href="/static/favicon.ico" />
+
+        {% endfor %}
+
+        <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+
+        {% compress "global" %}
+
+            <script type="text/javascript" src="/static/lib/bower/jquery/dist/jquery.min.js"></script>
+
+            <link rel="stylesheet" type="text/css" href="/static/lib/bower/bootstrap/less/bootstrap.less" />
+            <script type="text/javascript" src="/static/lib/bower/bootstrap/dist/js/bootstrap.min.js"></script>
+
+            <link rel="stylesheet" type="text/css" href="/static/UI/UI.less" />
+            <link rel="stylesheet" type="text/css" href="/static/UI/banner/banner.less" />
+            <link rel="stylesheet" type="text/css" href="/static/UI/menu/menu.less" />
+            <link rel="stylesheet" type="text/css" href="/static/UI/stages/stages.less" />
+            <link rel="stylesheet" type="text/css" href="/static/UI/stages/about/about.less" />
+            <link rel="stylesheet" type="text/css" href="/static/UI/stages/order/order.less" />
+            <link rel="stylesheet" type="text/css" href="/static/UI/stages/bubbles/bubbles.less" />
+            <link rel="stylesheet" type="text/css" href="/static/UI/stages/did/did.less" />
+            <link rel="stylesheet" type="text/css" href="/static/UI/stages/visit/visit.less" />
+
+
+            <script type="text/javascript" src="/static/App.js"></script>
+            <script type="text/javascript" src="/static/UI/UI.js"></script>
+            <script type="text/javascript" src="/static/UI/banner/banner.js"></script>
+            <script type="text/javascript" src="/static/UI/menu/menu.js"></script>
+            <script type="text/javascript" src="/static/UI/stages/stages.js"></script>
+            <script type="text/javascript" src="/static/UI/stages/about/about.js"></script>
+            <script type="text/javascript" src="/static/UI/stages/order/order.js"></script>
+            <script type="text/javascript" src="/static/UI/stages/bubbles/bubbles.js"></script>
+            <script type="text/javascript" src="/static/UI/stages/did/did.js"></script>
+            <script type="text/javascript" src="/static/UI/stages/visit/visit.js"></script>
+
+        {% endcompress %}
+
+    </head>
+
+    <body>
+
+        {% block content %}{% endblock %}
+
+    </body>
+
+</html>
