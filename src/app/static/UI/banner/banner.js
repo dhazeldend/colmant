@@ -26,29 +26,33 @@
 
         initialize : function(){
 
-            $('#myCarousel').bind('slid.bs.carousel', function(e){
+            $("#myCarousel").bind("slid.bs.carousel", function(e){
+
                 if($("div.active").hasClass("blank")){
 
                     // home screen
-                    $("#logo").animate({
-                        opacity: 1,
-                        zoom:1
-                    });
-
                     $(".splash").removeClass("largeSplash");
                     $("#btn-enter").removeClass("largeButton");
+                    $("#logo").animate({
+                        opacity : 1,
+                        zoom : 1
+                    }, 1000);
 
                 }else{
 
-                    //gallery screen
+                    // gallery screen
                     $("#logo").animate({
-                        opacity: 0,
-                        zoom:1.14
+                        opacity : 0,
+                        zoom : 1.14
+                    }, 1000, function(){
+
+                        $(".splash").addClass("largeSplash");
+                        $("#btn-enter").addClass("largeButton");
+
                     });
 
-                    $(".splash").addClass("largeSplash");
-                    $("#btn-enter").addClass("largeButton");
                 }
+
             });
 
             $("#btn-enter").click(function(e){
