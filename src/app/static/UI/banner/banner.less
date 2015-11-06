@@ -36,14 +36,16 @@ div#banner {
     }
 
     .splash {
-
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease;
         margin-top:20vh;
         position:absolute;
         padding:20px;
         z-index:1;
         width:100%;
         text-align:center;
-
     }
 
     button {
@@ -52,7 +54,7 @@ div#banner {
         -o-transition: all 0.5s ease;
         transition: all 0.5s ease;
         background-color:rgba(20,20,20,0.6);
-        color:#ECE4BF;
+        color:#ECECEC;
         margin:20px 0 0;
         border:medium none;
         padding:10px 50px;
@@ -79,10 +81,10 @@ div#banner {
     }
 
     .largeSplash{
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease;
         min-height: 450px;
         height:inherit;
         margin-top:0;
@@ -92,6 +94,11 @@ div#banner {
     div#myCarousel {
 
         height:100%;
+
+        span.glyphicon{
+            color:#967E3C;
+            text-shadow: 2px 0 0 #1B120D,-2px 0 0 #1B120D,0 2px #1B120D,0 -2px 0 #1B120D,0 1px 3px rgba(0,0,0,0.4);
+        }
 
         .carousel-inner {
             height:100%;

@@ -41,15 +41,12 @@
                 }else{
 
                     // gallery screen
+                    $(".splash").addClass("largeSplash");
+                    $("#btn-enter").addClass("largeButton");
                     $("#logo").animate({
                         opacity : 0,
                         zoom : 1.14
-                    }, 1000, function(){
-
-                        $(".splash").addClass("largeSplash");
-                        $("#btn-enter").addClass("largeButton");
-
-                    });
+                    }, 1000);
 
                 }
 
